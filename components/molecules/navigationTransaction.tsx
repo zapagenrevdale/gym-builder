@@ -10,7 +10,10 @@ const NavigationTransaction = () => {
   return (
     <div>
       {/* search */}
-      <NavigationButton handler={searchHandler}>
+      <NavigationButton
+        handler={searchHandler}
+        className="hidden lg:inline-flex"
+      >
         <MagnifyingGlassIcon className="h-5 w-5 text-black" />
       </NavigationButton>
       <NavigationButton handler={searchHandler}>

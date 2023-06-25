@@ -6,6 +6,9 @@ body {
   @apply text-neutral-800;
 }
 
+h2 {
+  @apply text-4xl md:text-5xl;
+}
 @import url("fonts.css");
 
 @layer components {

@@ -19,16 +19,19 @@ const CollectionCard: React.FC<Props> = ({
       className={`relative rounded-lg overflow-hidden ${className}`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      
     >
-      <motion.div whileHover={{ scale: 1.15, transition: { duration: 0.4 } }}>
+      <motion.div whileHover={{ scale: 1.15, transition: { duration: 0.4 } }}
+        className="min-h-[360px] w-auto h-full"
+      >
         <Image
           alt="Background"
           src={image}
           width={360}
           height={461}
           style={{
-            width: "100%",
-            height: "100%",
+            minWidth: "100%",
+            minHeight: "100%",
             objectFit: "cover",
             objectPosition: "top",
           }}

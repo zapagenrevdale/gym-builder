@@ -9,10 +9,10 @@ const Hero = () => {
     <div className="container w-full">
       {/* swiper */}
       <div className="relative flex flex-col min-h-[720px] justify-center items-center gap-10">
-        <h1 className="text-8xl font-grotesk font-black w-2/3 text-center bg-gradient-to-r text-transparent bg-clip-text from-neutral-900 via-neutral-800 to-neutral-900">
+        <h1 className="text-[52px] md:text-7xl xl:text-8xl font-grotesk font-black w-5/6 lg:w-2/3 text-center leading-tight xl:leading-normal bg-gradient-to-r text-transparent bg-clip-text from-neutral-900 via-neutral-800 to-neutral-900">
           Power Up Your Fitness Journey with Quality Gym Equipment!
         </h1>
-        <p className="text-xl font-semibold text-white w-1/3 text-center">
+        <p className="text-base lg:text-xl font-semibold text-white w-2/3 lg:w-1/3 text-center">
           Discover our top-tier gear designed to help you reach your fitness
           goals.
         </p>
